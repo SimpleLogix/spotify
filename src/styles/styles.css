@@ -1,0 +1,46 @@
+.frosty {
+    background: rgba(255, 255, 255, 0.32);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.8px);
+    -webkit-backdrop-filter: blur(8.8px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.profile-top-bar {
+    display: flex;
+    height: 100px;
+    max-height: 7vh;
+    gap: 8px;
+    align-items: center;
+}
+
+.profile-icon {
+    width: 100px;
+    height: 100px;
+    max-height: 7vh;
+    max-width: 7vh;
+    border-radius: 50%;
+    background-color: teal;
+}
+
+.username {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.join-date {
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.stats-top {}
+
+.stats-bot {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.space-bw {
+    justify-content: space-between;
+}
